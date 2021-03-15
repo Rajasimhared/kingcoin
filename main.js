@@ -68,15 +68,5 @@ class Blockchain {
 
 let kingCoin = new Blockchain();
 
-console.log('Mining block 1');
-kingCoin.addBlock(new Block(1, new Date(), {
-    amount: 10
-}))
-console.log('Mining block 2');
-
-kingCoin.addBlock(new Block(2, new Date(), {
-    amount: 50
-}))
-
 
 // console.log(JSON.stringify(kingCoin, null, 4))
